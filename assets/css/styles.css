@@ -1,0 +1,27 @@
+body {
+  background-color: #fafafa;
+}
+.img-grid-wrapper {
+  background-image: url(https://source.unsplash.com/random);
+  background-size: cover;
+  background-position: center;
+  outline: 1px solid #fff;
+  min-height: 450px;
+}
+.img-grid-wrapper .column {
+  outline: 1px solid #fff;
+  width: 20%;
+}
+.text-column {
+  background-color: #ff4500;
+  height: 100%;
+}
+.hover-content {
+  background-color: #fff;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  height: 100%;
+}
+.img-grid-wrapper .column:hover + .column .hover-content {
+  opacity: 1;
+}
