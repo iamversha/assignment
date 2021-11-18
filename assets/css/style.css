@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  background: url("../images/sky.jpg") no-repeat center;
+  background-size: contain;
+  padding-bottom: 30%;
+}
+.container{
+  width: 100%;
+  max-width: 867px;
+}
+.box{
+ 
+  border: 2px solid #fff;
+  width: 140px;
+  height: 140px;
+ 
+}
+  
+.orange-box{
+  background-color:#f89838; 
+}
+.lists{
+  display: none;
+}
+
+.content{
+  color: #fff;
+  padding: 45px 15px;
+  text-align: center;
+}
+.orange-box:hover {
+  opacity: 0.7;
+}
+.orange-box:hover + .box .lists{
+  display: block;
+}
+ul{
+  list-style: inside;
+}
+.lists{
+  background-color: #fff;
+  font-size: 11px;
+  padding: 28px 5px;
+
+}
