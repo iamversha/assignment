@@ -2,7 +2,7 @@ body {
   background-color: #fafafa;
 }
 .img-grid-wrapper {
-  background-image: url(https://source.unsplash.com/random);
+  background-image: url("../images/room.png");
   background-size: cover;
   background-position: center;
   outline: 1px solid #fff;
@@ -13,8 +13,10 @@ body {
   width: 20%;
 }
 .text-column {
-  background-color: #ff4500;
-  height: 100%;
+    padding: 20px 10px;
+    background-color: #f89838;
+    height: 100%;
+    color: #fff;
 }
 .hover-content {
   background-color: #fff;
@@ -24,4 +26,11 @@ body {
 }
 .img-grid-wrapper .column:hover + .column .hover-content {
   opacity: 1;
+}
+.lists{
+  list-style: inside;
+  padding: 20px 10px;
+}
+span{
+font-size: 25px;
 }
